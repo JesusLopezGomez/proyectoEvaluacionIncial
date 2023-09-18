@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(173, 224, 168);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecera{
+    background-color:  rgb(228, 208, 183);
+    height: 25px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.enlacesNav{
+    font-size: 14pt;
+}
+
+.imgcabecera{
+    width: 1288px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    margin-top: 38%;
+    height: 80px;
+    background-color:  rgb(228, 208, 183);
+    text-align: center;
+}
+
+.realizado{
+    position: relative;
+    top: 40%;
+}
+
+

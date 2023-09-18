@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="./estilos/cabecera.css">
+    <link rel="stylesheet" href="./estilos/calculadoraimc.css">
+</head>
+<body>
+    <header class="cabecera">
+        <div class="enlacesNav">
+            <a href="./index.html" class="inicio">Inicio - </a></label>
+            <a href="./calculadoraImc.html"class="calimc"><b>Calculadora de imc</b> - </a></label>
+            <a href="./pesoIdeal.html" class="calpi">Descubre tu peso ideal </a></label>
+        </div>
+    </header>
+
+    <h1 class="titulo">Calculadora de IMC</h1>
+
+    <img src="./img/cabecera.jpg" alt="cabecera green healt" class="imgcabecera">
+
+    <div class="container">
+        <div class="resultado">
+            <label id="resultadoText">Su Índice de masa corporal es: <b id="indice"></b></label>
+        </div>
+
+        <div class="infopersona">
+            <label class="peso">Peso: <input type="text" placeholder="Introduce su peso en Kg" id="numPeso"></label>
+            <br>
+            <label class="altura">Altura: <input type="text" placeholder="Introduce su altura en cm" id="numAltura"></label>
+        </div>
+
+        <div id="generar">
+            <label class="textGenerar">Generar</label>
+        </div>
+    </div>
+
+    <footer>
+        <label class="realizado">Realizado por Jesús López Gómez</label>
+    </footer>
+
+    <script src="./javaScript/index.js"></script>
+</body>
+</html>

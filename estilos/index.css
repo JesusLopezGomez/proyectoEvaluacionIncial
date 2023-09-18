@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(173, 224, 168);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.informacion{
+    position: absolute;
+    top: 141%;
+    left: 5%;
+    transform: translate(-5%,-141%);
+}
+
