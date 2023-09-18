@@ -10,7 +10,7 @@ body{
 .cabecera{
     background-color:  rgb(228, 208, 183);
     height: 25px;
-    width: auto;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -20,7 +20,7 @@ body{
 }
 
 .imgcabecera{
-    width: 1288px;
+    width: 100%;
 }
 
 a{
