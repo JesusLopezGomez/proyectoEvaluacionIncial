@@ -1,0 +1,159 @@
+*{
+    margin:0;
+}
+
+.footC{
+    margin-top: 18%;
+    height: 80px;
+    background-color:  rgb(228, 208, 183);
+    text-align: center;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    background-color:  rgb(228, 208, 183);
+    position: absolute;
+    top: 149%;
+    left: 50%;
+    transform: translate(-50%,-143%);
+    border-radius: 19px;
+}
+
+.formT{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.nombrel{
+    position: absolute;
+    top: 15%;    
+    left: 15%;
+    transform: translate(-15%,15%);
+}
+
+.apellidol{
+    position: absolute;
+    top: 25%;    
+    left: 15%;
+    transform: translate(-15%,-25%);
+}
+
+.provincial{
+    position: absolute;
+    top: 35%;    
+    left: 15%;
+    transform: translate(-15%,-35%);
+}
+
+.cpl{
+    position: absolute;
+    top: 45%;    
+    left: 20%;
+    transform: translate(-20%,-45%);
+}
+
+.emailL{
+    position: absolute;
+    top: 55%;    
+    left: 14%;
+    transform: translate(-14%,-55%);
+
+}
+
+.telL{
+    position: absolute;
+    top: 65%;    
+    left: 15%;
+    transform: translate(-15%,-65%);
+}
+
+#nombre{
+    position: relative;
+    left: 19%;
+}
+
+#apellidos{
+    position: relative;
+    left: 16%
+}
+
+#provincia{
+    position: relative;
+    left: 19%
+}
+
+#cp{
+    position: relative;
+    left: 1.8%;
+}
+
+#email{
+    position: relative;
+    left: 27%;
+}
+
+#tel{
+    position: relative;
+    left: 17%;
+}
+
+input{
+    border-radius: 5px;
+}
+
+.enviar{
+    margin-left: 12%;
+    margin-top: 38%;
+    width: 300px;
+    text-align: center;
+}
+
+.borrar{
+    margin-left: 12%;
+    margin-top: 3%;
+    width: 300px;
+    text-align: center;
+}
+
+.tablaC td{
+    border-width: 4.5px;
+    border-style: solid;
+    border-color: rgb(228, 208, 183);
+}
+
+.tablaC{
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.colaboradoresT{
+    margin-top: 5%;
+    margin-left: 11%;
+    margin-bottom: 0.5%;
+}
+
+.botonC{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(228, 208, 183);
+    margin-left: 9%;
+    margin-top: 0.5%;
+    border-radius: 10px;
+}
+
+#nombreC{
+    margin-top: 0.5%;
+    margin-left: 6%;
+    width: 130px;
+}
+
+#apellidoC{
+    width: 138px;
+}
+
+

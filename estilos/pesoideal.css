@@ -11,7 +11,7 @@
     height: 300px;
     background-color:  rgb(228, 208, 183);
     position: absolute;
-    top: 115%;
+    top: 119%;
     left: 50%;
     transform: translate(-50%,-115%);
     border-radius: 19px;
@@ -26,26 +26,19 @@
     margin-left: 6%;
 }
 
-#resultadoText{
+#resultadoTextI{
     position: relative;
     top: 30%;
     left: 5%;
 }
 
-.peso{
-    position: absolute;
-    top: 33%;
-    left: 7%;
-
-}
-
 .altura{
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 7%;
 }
 
-#generar{
+#generarI{
     width: 300px;
     height: 50px;
     background-color: rgb(145, 203, 236);
@@ -64,3 +57,14 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+.genero{
+    position: absolute;
+    top: 55%;
+    left: 7%;
+}
+
+
+
+
+

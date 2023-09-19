@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de peso ideal</title>
+    <link rel="stylesheet" href="./estilos/cabecera.css">
+    <link rel="shortcut icon" href="./img/icono.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./estilos/pesoideal.css">
+</head>
+<body>
+    <header class="cabecera">
+        <div class="enlacesNav">
+            <a href="./index.html" class="inicio">Inicio - </a></label>
+            <a href="./calculadoraImc.html"class="calimc">Calculadora de imc - </a></label>
+            <a href="./pesoIdeal.html" class="calpi"><b>Descubre tu peso ideal -</b></a></label>
+            <a href="./contacto.html" class="contact">Contacto</a>
+        </div>
+    </header>
+
+    <img src="./img/cabecera.jpg" alt="cabecera green healt" class="imgcabecera">
+
+    <h1 class="titulo">Calculadora de peso Ideal</h1>
+
+    <div class="container">
+        <div class="resultado">
+            <label id="resultadoTextI">Su peso ideal es:</label>
+        </div>
+
+        <div class="infopersona">
+            <label class="altura">Altura: <input type="text" placeholder="Introduce su altura en cm" id="numAlturaI"></label>
+            <br>
+        </div>
+
+        <div class="genero">
+            <label class="hombre">Hombre <input type="radio" name="genero" id="hombreValor"> </label>
+            <label class="mujer">Mujer <input type="radio" name="genero" id="mujerValor"></label>
+        </div>
+
+        <div id="generarI">
+            <label class="textGenerar">Generar</label>
+        </div>
+    </div>
+
+    <footer>
+        <label class="realizado">Realizado por Jesús López Gómez</label>
+    </footer>
+
+    <script src="./javaScript/calculadorapesoideal.js"></script>
+</body>
+</html>

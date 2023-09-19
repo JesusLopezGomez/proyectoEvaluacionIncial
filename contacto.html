@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./estilos/cabecera.css">
+    <link rel="stylesheet" href="./estilos/contacto.css">
+    <link rel="shortcut icon" href="./img/icono.ico" type="image/x-icon">
+
+</head>
+<body>
+    <header class="cabecera">
+        <div class="enlacesNav">
+            <a href="./index.html" class="inicio">Inicio - </a></label>
+            <a href="./calculadoraImc.html"class="calimc">Calculadora de imc - </a></label>
+            <a href="./pesoIdeal.html" class="calpi">Descubre tu peso ideal -</a></label>
+            <a href="./contacto.html" class="contact"><b>Contacto</b></a>
+        </div>
+    </header>
+
+    <img src="./img/cabecera.jpg" alt="cabecera green healt" class="imgcabecera">
+
+    <h1 class="titulo"> Contacto</h1>
+
+    <div class="container">
+        <h3 class="formT">Formulario</h3>
+        <form action="https://iesjacaranda.es/Imsgi/resultado.php" method="get">
+            <label class="nombrel">Nombre: <input type="text" id="nombre" name="nombre" placeholder="Introduzca su nombre" required></label><br>
+            <label class="apellidol">Apellidos: <input type="text" id="apellidos" name="apellidos" placeholder="Introduzca sus apellidos" required></label><br>
+            <label class="provincial">Provicia: <input type="text" id="provincia" name="provincia" placeholder="Introduzca su provincia" required></label><br>
+            <label class="cpl">Código postal: <input type="text" id="cp" name="código postal" placeholder="Introduzca su código postal" required></label><br>
+            <label class="emailL">Email: <input type="email" id="email" name="email" placeholder="Introduzca su email" required></label><br>
+            <label class="telL">Teléfono: <input type="tel" id="tel" name="telefono" placeholder="Introduzca su teléfono" required></label><br>
+            
+            <input type="submit" value="Enviar" class="enviar">
+            <input type="reset" value="Borrar" class="borrar">
+        </form>
+    </div>
+
+    <div class="colaboradores">
+        <h3 class="colaboradoresT">Colaboradores</h3>
+        <table class="tablaC" id="tablaC">
+            <tr>
+                <td>Número</td>
+                <td>Nombre</td>
+                <td>Apellidos</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Pedro</td>
+                <td>Oña Gil</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jose Manuel</td>
+                <td>Cabrera Ramos</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Juan Luis</td>
+                <td>Jiménez Sevillano</td>
+            </tr>
+        </table>
+        <label><input type="text" id="nombreC" placeholder="Introduzca su nombre"></label>
+        <label><input type="text" id="apellidoC" placeholder="Introduzca sus apellidos"></label><br>
+
+        <button class="botonC" id="botonC">Colabora con nosotros</button>
+    </div>
+
+    <footer class="footC">
+        <label class="realizado">Realizado por Jesús López Gómez</label>
+    </footer>
+
+    <script src="./javaScript/contacto.js"></script>
+</body>
+</html>
