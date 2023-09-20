@@ -9,8 +9,14 @@ body{
 
 .informacion{
     position: absolute;
-    top: 141%;
+    top: 97%;
     left: 5%;
     transform: translate(-5%,-141%);
 }
 
+.footerIndex{
+    margin-top: 23%;
+    height: 80px;
+    background-color:  rgb(228, 208, 183);
+    text-align: center;
+}

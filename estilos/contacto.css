@@ -2,13 +2,6 @@
     margin:0;
 }
 
-.footC{
-    margin-top: 18%;
-    height: 80px;
-    background-color:  rgb(228, 208, 183);
-    text-align: center;
-}
-
 .titulo{
     text-align: center;
 }
@@ -18,7 +11,7 @@
     height: 400px;
     background-color:  rgb(228, 208, 183);
     position: absolute;
-    top: 149%;
+    top: 115%;
     left: 50%;
     transform: translate(-50%,-143%);
     border-radius: 19px;
@@ -132,8 +125,8 @@ input{
 }
 
 .colaboradoresT{
-    margin-top: 5%;
-    margin-left: 11%;
+    margin-top: 4%;
+    margin-left: 10%;
     margin-bottom: 0.5%;
 }
 
@@ -156,4 +149,9 @@ input{
     width: 138px;
 }
 
-
+.footC{
+    margin-top: 12%;
+    height: 80px;
+    background-color:  rgb(228, 208, 183);
+    text-align: center;
+}
